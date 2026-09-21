@@ -1,0 +1,146 @@
+/* ==================================================
+   TABLET
+================================================== */
+
+@media (max-width: 992px) {
+
+    .navbar-container {
+        flex-direction: column;
+
+        padding: 15px 0;
+    }
+
+    .navbar-menu {
+        flex-wrap: wrap;
+
+        justify-content: center;
+
+        gap: 15px;
+    }
+
+    .hero {
+        min-height: 570px;
+    }
+
+    .hero-content h1 {
+        font-size: 60px;
+    }
+
+    .card-grid,
+    .paket-grid,
+    .layanan-grid,
+    .testimoni-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .galeri-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .intro-grid,
+    .detail-paket,
+    .contact-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .intro-image img {
+        height: 400px;
+    }
+
+    .footer-container {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+
+/* ==================================================
+   HP
+================================================== */
+
+@media (max-width: 600px) {
+
+    body {
+        font-size: 16px;
+    }
+
+    .container {
+        width: 92%;
+    }
+
+    .navbar-container {
+        min-height: auto;
+    }
+
+    .logo {
+        font-size: 27px;
+    }
+
+    .navbar-menu {
+        gap: 10px;
+    }
+
+    .navbar-menu a {
+        font-size: 15px;
+    }
+
+    .hero {
+        min-height: 540px;
+    }
+
+    .hero-content h1 {
+        font-size: 48px;
+    }
+
+    .hero-content p {
+        font-size: 17px;
+    }
+
+    .btn-primary {
+        margin-bottom: 10px;
+    }
+
+    .section {
+        padding: 60px 0;
+    }
+
+    .section-title h2 {
+        font-size: 44px;
+    }
+
+    .card-grid,
+    .paket-grid,
+    .layanan-grid,
+    .testimoni-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .galeri-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .galeri-item img {
+        height: 180px;
+    }
+
+    .intro-content h2 {
+        font-size: 48px;
+    }
+
+    .detail-info h1 {
+        font-size: 50px;
+    }
+
+    .footer-container {
+        grid-template-columns: 1fr;
+
+        gap: 30px;
+    }
+
+    .auth-box {
+        padding: 30px 20px;
+    }
+
+    .auth-box h2 {
+        font-size: 44px;
+    }
+}
